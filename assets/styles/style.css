@@ -64,3 +64,17 @@ ul li {
     list-style-type: none;
     margin-left: 10px;
 }
+
+.box_container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;    
+}
+
+.card_right{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+}
